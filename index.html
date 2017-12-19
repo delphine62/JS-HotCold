@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="./style.css">
+<title>jeu</title>
+  </head>
+    <body>
+      <div class="jeu">
+        <h2> PLUS OU MOINS!</h2>
+        <h3> let'go</h3>
+        <div class="régles">
+          <h3> régles du jeu!</h3>
+          <p>l'ordinateur choisit un nombre entre 1 et 100
+    <br>au joueur de trouver ce nombre en proposant à
+        son tour des nombres. Les seules indications donnés par l'ordinateur
+        sont" c'est plus" ou "c'est moins"</br></p>
+      </div>
+</div>
+<input></input>
+<bouton></bouton>
+<section>indication plus ou moins</section>
+
+<script>
+    var min=1;
+       var max=100;
+     var nb_aleatoire= Math.floor(Math.random()*(max-min+ 1)) +min;
+     console.log("nb :"+nb_aleatoire);
+     var jeuFini = false;
+
+     while (jeuFini == false) {
+       var nb_utilisateur=prompt("saisir un nombre");
+       if (nb_utilisateur >nb_aleatoire){
+         alert ("MOINS");
+       }
+       else if(nb_utilisateur < nb_aleatoire)
+       {
+         alert  ("PLUS");
+       }
+       else
+       {
+         alert("GAGNE");
+         jeuFini = true;
+       }
+     }
+
+    </script>
+
+
+    </body>
+    </html>

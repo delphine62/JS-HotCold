@@ -1,0 +1,43 @@
+head{
+	margin-top:300px;
+	width: auto;
+	border: 1px solid powder blue;
+}
+
+title{
+	text-align: center;
+	text-indent: inherit;
+	float: right;
+}
+
+body{
+	margin-top: 100px;
+	padding-top: 50px;
+}
+
+.jeu{
+	height:300px;
+	width: auto;
+	float:right;
+	border:1px solid red;
+	text-align: center;
+}
+
+.régles{
+	height:200Px;
+	width:auto;
+
+
+}
+h2{
+	text-align: justify;
+	text-decoration-style: solid;
+}
+
+h3{
+	text-align: justify;
+
+}
+@keyframes identifier {
+
+}
